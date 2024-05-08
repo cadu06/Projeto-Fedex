@@ -1,0 +1,186 @@
+.imagem {
+    position: relative;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.botoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.botoes button {
+    margin: 10px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-tarifas,
+.botao-rastreamento,
+.botao-enviar {
+    width: 150px;
+    height: 150px;
+}
+
+.botao-rastreamento{
+    background-color: #C5A898;
+}
+
+.campo-rastreamento input {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #4B3C5D;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #FFF1CE;
+}
+
+.campo-rastreamento button {
+    width: 100px;
+    height: 50px;
+    background-color: #4B3C5D;
+    color: #FFF1CE;
+    border: none;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #4B3C5D 70%, #C5A898 10%);
+    padding: 20px;
+    color: #FFF1CE;
+}
+
+#paragrafo-banner {
+    width: 50%;
+}
+
+.botao-banner {
+    text-align: center;
+}
+
+.botao {
+    background-color: #FFF1CE;
+    color: #4B3C5D;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 196px;
+    height: 68px;
+}
+
+.title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sub-title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imagens-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 50px;
+}
+
+.imagem-item {
+    flex: 0 0 auto;
+}
+
+.h-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.legenda-1 {
+    width: 200px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.legenda-2 {
+    width: 250px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.legenda-3 {
+    width: 300px;
+    text-align: center;
+    margin-left: 8%;
+}
+
+@media only screen and (max-width: 900px) {
+    .botoes {
+        top: 50%;
+    }
+
+    .botao-tarifas,
+    .botao-rastreamento,
+    .botao-enviar {
+        width: 50%;
+        height: 50%;
+    }
+
+    .campo-rastreamento input {
+        width: 50%;
+    }
+
+    .campo-rastreamento button {
+        width: 50%;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #paragrafo-banner {
+        width: 100%;
+    }
+
+    .botao-banner {
+        margin-top: 20px;
+    }
+
+    .title,
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .imagens-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .imagem-item {
+        margin-bottom: 20px;
+    }
+
+    .legenda {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,97 @@
+/* estilo main */
+.h2 {
+    color: #000;
+    text-align: center;
+    align-items: center;
+    font-family: Inter;
+    font-style: italic;
+    margin-top: 77px;
+}
+
+/* estilo quadrados de informações */
+.quadrado {
+    background: #C5A898;
+    margin-top: 90px;
+    display: flex;
+    margin: 12%;
+}
+
+.img {
+    padding: 60px;
+}
+
+.img img {
+    max-width: 100%; /* Torna a imagem responsiva */
+    height: auto;    /* Evita distorções da imagem */
+}
+
+.text {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 50px;
+    margin-left: -35px;
+}
+
+.button input {
+    background: #FFF1CE;
+    width: 257px;
+    border-style: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;  
+}
+
+.text2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 66px;
+}
+
+.img2 {
+    padding: 50px;
+    margin-left: -6px;
+}
+
+.img2 img {
+    max-width: 100%; /* Torna a imagem responsiva */
+    height: auto;    /* Evita distorções da imagem */
+}
+
+/* Estilo geral para tornar a página responsiva */
+@media only screen and (max-width: 768px) {
+    .quadrado {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .img,
+    .img2 {
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    .text,
+    .text2 {
+        font-size: 16px;
+        padding: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .button input {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
