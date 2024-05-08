@@ -27,14 +27,14 @@ $conexao->close();
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html">Fedex</a></div>
+        <div class="logo"><a href=".html/index.php">Fedex</a></div>
         <nav class="navbar">
             <div class="menu-toggle">&#9776;</div>
             <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="suporte.html">Suporte</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href=".html/index.php">Home</a></li>
+                <li><a href=".html/suporte.php">Suporte</a></li>
+                <li><a href=".html/login.php">Login</a></li>
+                <li><a href=".html/sobre.php">Sobre</a></li>
             </ul>
         </nav>
     </header>
@@ -85,10 +85,10 @@ $conexao->close();
         <div class="footer-section">
             <h3>Siga a FedEx</h3>
             <div class="social-icons">
-                <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
-                <a href="#" class="social-icon"><img src="img/youtube.png" alt="YouTube"></a>
-                <a href="#" class="social-icon"><img src="img/instagram.png" alt="Instagram"></a>
-                <a href="#" class="social-icon"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                <a href="#" class="social-icon"><img src="assets/img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="assets/img/youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="assets/img/instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="assets/img/linkedin.png" alt="LinkedIn"></a>
             </div>
         </div>
     </footer>

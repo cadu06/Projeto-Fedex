@@ -16,21 +16,21 @@
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html">Fedex</a></div>
+        <div class="logo"><a href=".html/index.php">Fedex</a></div>
         <nav class="navbar">
             <div class="menu-toggle">&#9776;</div>
             <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="suporte.html">Suporte</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href=".html/index.php">Home</a></li>
+                <li><a href=".html/suporte.php">Suporte</a></li>
+                <li><a href=".html/login.php">Login</a></li>
+                <li><a href=".html/sobre.php">Sobre</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="imagem">
-            <img src="img/empresa-de-transporte.png" alt="Meios de transporte da empresa.">
+            <img src="assets/img/empresa-de-transporte.png" alt="Meios de transporte da empresa.">
             <div class="botoes">
                 <button class="botao-tarifas">TARIFAS E TEMPO</button>
                 <button class="botao-rastreamento">RASTREAR</button>
@@ -64,19 +64,19 @@
 
         <div class="imagens-container">
             <div class="imagem-item">
-                <img src="img/home-img2.png" alt="Trabalhadores da fedex." style="width: 350px; height: 232.847px;">
+                <img src="assets/img/home-img2.png" alt="Trabalhadores da fedex." style="width: 350px; height: 232.847px;">
                 <h4 class="h-title">Novo na FedEx?</h4>
                 <p class="legenda-1">Nosso novo Centro de Clientes orienta você pelas etapas necessárias para realizar envios com a FedEx.</p>
                 <h4 class="h-title">NÓS AJUDAMOS</h4>
             </div>
             <div class="imagem-item">
-                <img src="img/home-img3.png" alt="Trabalhadores da fedex." style="width: 350px; height: 232.847px;">
+                <img src="assets/img/home-img3.png" alt="Trabalhadores da fedex." style="width: 350px; height: 232.847px;">
                 <h4 class="h-title">Abra uma conta</h4>
                 <p class="legenda-2">Aproveite nossos serviços e soluções criados para atender às suas necessidades de remessa. Registre-se para abrir uma conta de remessa FedEx a seguir. Vamos começar!</p>
                 <h4 class="h-title">FAÇA SUA CONTA</h4>
             </div>
             <div class="imagem-item">
-                <img src="img/home-img.png" alt="Trabalhadores da fedex." style="width: 350px; height: 232.847px;">
+                <img src="assets/img/home-img.png" alt="Trabalhadores da fedex." style="width: 350px; height: 232.847px;">
                 <h4 class="h-title">Serviços de remessa</h4>
                 <p class="legenda-3">Escolha a FedEx para entregar remessas importantes e urgentes, com origem e destino em mais de 220 países e territórios ao redor do mundo. A FedEx possui o serviço de que você precisa, incluindo importação ou exportação, remessas expressas ou menos urgentes e pacotes pequenos ou pesados.</p>
                 <h4 class="h-title">CONHEÇA AS FERRAMENTAS DE ENVIO</h4>
@@ -106,10 +106,10 @@
         <div class="footer-section">
             <h3>Siga a FedEx</h3>
             <div class="social-icons">
-                <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
-                <a href="#" class="social-icon"><img src="img/youtube.png" alt="YouTube"></a>
-                <a href="#" class="social-icon"><img src="img/instagram.png" alt="Instagram"></a>
-                <a href="#" class="social-icon"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                <a href="#" class="social-icon"><img src="assets/img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="assets/img/youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="assets/img/instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="assets/img/linkedin.png" alt="LinkedIn"></a>
             </div>
         </div>
     </footer>
